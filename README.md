@@ -37,13 +37,13 @@ The images were compressed using compressjpeg.com and compresspng.com, these ima
 
 To checkout the project:
 
-1. Go to the GitHub repository which is located [https://github.com/hernanal/frontend-nanodegree-mobile-portfolio](here).
+1. Go to the GitHub repository which is located [here](https://github.com/hernanal/frontend-nanodegree-mobile-portfolio).
 2. On the left, a little ways down the page, find the drop down button that says "Branch". Select the gh-pages branch.
 3. Click the button that says "clone or download" and download the zip file.
 4. Find the zip file on your local machine and extract all the files.
 5. Open the production directory.
 6. Find the index.min.html file and open it.
-7. If you just want to view the website you can follow this [https://hernanal.github.io/frontend-nanodegree-mobile-portfolio/](link).
+7. If you just want to view the website you can follow this [link](https://hernanal.github.io/frontend-nanodegree-mobile-portfolio/).
 
 
 ## Specific optimizations
@@ -85,39 +85,39 @@ The pageSpeed insights scores for the mobile and desktop formats are 95/100 and 
 
 ## References
 
-[http://stackoverflow.com/questions/14377590/queryselector-and-queryselectorall-vs-getelementsbyclassname-and-getelementbyid](querySelector and querySelectorAll vs getElementById and getElementsByClassName in JavaScript)
+[querySelector and querySelectorAll vs getElementById and getElementsByClassName in JavaScript](http://stackoverflow.com/questions/14377590/queryselector-and-queryselectorall-vs-getelementsbyclassname-and-getelementbyid)
 
-[https://developer.chrome.com/devtools/docs/device-mode](Device mode and Mobile Emulation)
+[Device mode and Mobile Emulation](https://developer.chrome.com/devtools/docs/device-mode)
 
-[https://developer.chrome.com/devtools/docs/timeline](Performance profiling with the Timeline)
+[Performance profiling with the Timeline](https://developer.chrome.com/devtools/docs/timeline)
 
-[https://developer.chrome.com/devtools/docs/timeline#timeline-event-reference](Timeline event reference)
+[Timeline event reference](https://developer.chrome.com/devtools/docs/timeline#timeline-event-reference)
 
-[https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#minification-preprocessing--context-specific-optimizations](Data compression 101)
+[Data compression 101](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#minification-preprocessing--context-specific-optimizations)
 
-[https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching](HTTP caching)
+[HTTP caching](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
-[https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css](Render blocking CSS)
+[Render blocking CSS](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css)
 
-[https://developers.google.com/web/fundamentals/performance/critical-rendering-path/adding-interactivity-with-javascript](Adding interactivity with JavaScript)
+[Adding interactivity with JavaScript](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/adding-interactivity-with-javascript)
 
-[https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path](Optimizing the critical rendering path)
+[Optimizing the critical rendering path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path)
 
-[https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp#performance-patterns](Analyzing critical rendering path performance)
+[Analyzing critical rendering path performance](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp#performance-patterns)
 
-[http://gent.ilcore.com/2011/03/how-not-to-trigger-layout-in-webkit.html](How to NOT to trigger a layout in WebKit)
+[How to NOT to trigger a layout in WebKit](http://gent.ilcore.com/2011/03/how-not-to-trigger-layout-in-webkit.html)
 
-[compressjpeg.com](Compress Images)
+[Compress Images](compressjpeg.com)
 
-[https://www.npmjs.com/package/grunt-contrib-imagemin](Grunt imagemin plugin)
+[Grunt imagemin plugin](https://www.npmjs.com/package/grunt-contrib-imagemin)
 
-[https://www.npmjs.com/package/grunt-contrib-htmlmin](Grunt htmlmin plugin)
+[Grunt htmlmin plugin](https://www.npmjs.com/package/grunt-contrib-htmlmin)
 
-[https://www.npmjs.com/package/grunt-contrib-cssmin](Grunt cssmin plugin)
+[Grunt cssmin plugin](https://www.npmjs.com/package/grunt-contrib-cssmin)
 
-[https://github.com/gruntjs/grunt-contrib-uglify](Grunt uglifyjs plugin)
+[Grunt uglifyjs plugin](https://github.com/gruntjs/grunt-contrib-uglify)
 
-[http://gruntjs.com/project-scaffolding](Grunt Project Scaffolding)
+[Grunt Project Scaffolding](http://gruntjs.com/project-scaffolding)
 
 
 
