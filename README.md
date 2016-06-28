@@ -50,30 +50,30 @@ To checkout the project:
 
 * Optimizations made to index.html, images, and css files are as follows:
 
-** Smaller image of pizzeria was added to increase pageSpeed insights score.
-** Media attribute was added to print.css to prevent it from blocking page rendering since it is only utilized when printing.
-** Async tag was added to analytics.js to prevent it from blocking parsing of the html.
-** Style.css was inlined into index.html to prevent it from blocking rendering of the page.
-** Profilepic.jpg was compressed to increase the pageSpeed insights score.
-** The smaller pizzeria image was compressed to further increase pageSpeed insights score. 
-** Minify the html, css, and images files using Grunt.
-** Placed the minified files in the production directory in the appropriate folders.
+	* Smaller image of pizzeria was added to increase pageSpeed insights score.
+	* Media attribute was added to print.css to prevent it from blocking page rendering since it is only utilized when printing.
+	* Async tag was added to analytics.js to prevent it from blocking parsing of the html.
+	* Style.css was inlined into index.html to prevent it from blocking rendering of the page.
+	* Profilepic.jpg was compressed to increase the pageSpeed insights score.
+	* The smaller pizzeria image was compressed to further increase pageSpeed insights score. 
+	* Minify the html, css, and images files using Grunt.
+	* Placed the minified files in the production directory in the appropriate folders.
 
 * Optimizations made to main.js are as follows:
 
-** All querySelectorAll instances were replaced with getElementsByClassName because it is a more performant way of gathering elements. 
-** All querySelector instances were replaced with getElementsById because it is more performant.
-** After the first timeline recording of the scrolling on Cam's Pizzeria it was determined that the updatePositions function was the source of a Forced Syncronous Layout(FSL) because layout was being triggered before the style was being set. Variables, len and scroll, were created outside of the for loop to assist in solving this bottleneck. Lines 517 and 518.
-** The sliding pizzas that move in the background when the page is scrolled were reduced from 200 to 30. This greatly improved the speed of the page and there was no noticable change to the background.
+	* All querySelectorAll instances were replaced with getElementsByClassName because it is a more performant way of gathering elements. 
+	* All querySelector instances were replaced with getElementsById because it is more performant.
+	* After the first timeline recording of the scrolling on Cam's Pizzeria it was determined that the updatePositions function was the source of a Forced Syncronous Layout(FSL) because layout was being triggered before the style was being set. Variables, len and scroll, were created outside of the for loop to assist in solving this bottleneck. Lines 517 and 518.
+	* The sliding pizzas that move in the background when the page is scrolled were reduced from 200 to 30. This greatly improved the speed of the page and there was no noticable change to the background.
 
 * The last part of the project required us to optimize the pizza resizing feature on Cam's Pizzeria site. 
 
-** A recording of the timeline showed a FSL within the function determineDx. To solve this bottleneck, the determineDx function was removed because further inspection revealed that it was essentially useless. Lines 426-448.
-** The code from the sizeSwitcher function that was inside of the determineDx function was modified and moved into changePizzaSizes function. Lines 452-464.  
-** The randomPizzas variable was added outside of the for loop to reduce the repetitiveness that existed inside the function. Line 465.
-** The for loop was modified so that it batches the style changes to the pizza's width. 
-** Minify the js files using Grunt.
-** Place the minified files in the production directory in the appropriate folders. 
+	* A recording of the timeline showed a FSL within the function determineDx. To solve this bottleneck, the determineDx function was removed because further inspection revealed that it was essentially useless. Lines 426-448.
+	* The code from the sizeSwitcher function that was inside of the determineDx function was modified and moved into changePizzaSizes function. Lines 452-464.  
+	* The randomPizzas variable was added outside of the for loop to reduce the repetitiveness that existed inside the function. Line 465.
+	* The for loop was modified so that it batches the style changes to the pizza's width. 
+	* Minify the js files using Grunt.
+	* Place the minified files in the production directory in the appropriate folders. 
 
 
 After all of these changes the average, average scripting time for the last 10 frames is around 0.68 milliseconds, which is significantly below the 10-12 milliseconds required to render at 60 frames per second. 
